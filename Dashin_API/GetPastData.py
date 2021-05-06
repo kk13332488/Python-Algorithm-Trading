@@ -12,7 +12,7 @@ numData = instStockChart.GetHeaderValue(3) #number of received data
 numField = instStockChart.GetHeaderValue(1) #number of Field
 for i in range(numData):
     for j in range(numField):
-        print(instStockChart.GetDataValue(j,i), end = " ")
+        print(instStockChart.GetDataValue(j,i), end = " ") #Get the requested data
     print("")
 
 
